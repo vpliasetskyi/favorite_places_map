@@ -21,7 +21,7 @@ When you run `ex.py`, the program:
 
 The terminal walks you through every step as it runs:
 
-![Terminal output showing places added, distances, closest pair, and the prompt to add a new place](images/output.jpg)
+![Terminal output showing places added, distances, closest pair, and the prompt to add a new place](images/output.png)
 
 - Each place is confirmed with ✅ as it gets added
 - All pairwise distances are printed (e.g. `Top Of Vancouver → Revolver Coffee: 0.73 km`)
@@ -32,14 +32,18 @@ The terminal walks you through every step as it runs:
 
 The saved HTML file opens automatically and shows all your places as colored markers:
 
-![Interactive folium map of Vancouver with colored markers for each place type](images/map.jpg)
+![Interactive folium map of Vancouver with colored markers for each place type](images/map.png)
 
 | Color | Place Type |
 |-------|-----------|
-|  <span style="color:#e74c3c;">⬤ Red</span> Red | Restaurant |
-|  <span style="color:#27ae60;">⬤ Green</span> Green | Park |
-|  <span style="color:#8e44ad;">⬤ Purple</span> Purple | Museum |
-|  <span style="color:#e67e22;">⬤ Orange</span> Orange | Cafe |
+|   Red | Restaurant |
+|   Green | Park |
+|   Purple | Museum |
+|   Orange | Cafe |
+
+
+<span style="color:blue">some *blue* text</span>.
+
 
 Click any marker to see its popup with details (food type, playground info, entry fee, WiFi).
 
