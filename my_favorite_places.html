@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_416aa9dc5aaba51899e660520b89080d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_416aa9dc5aaba51899e660520b89080d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_416aa9dc5aaba51899e660520b89080d = L.map(
+                "map_416aa9dc5aaba51899e660520b89080d",
+                {
+                    center: [49.2827, -123.1207],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_25d232bb69a45a8058030bc9bc915479 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_25d232bb69a45a8058030bc9bc915479.addTo(map_416aa9dc5aaba51899e660520b89080d);
+        
+    
+            var marker_cde608cf4b5f8a03ece7bde8cfdff77d = L.marker(
+                [49.2734, -123.1038],
+                {
+}
+            ).addTo(map_416aa9dc5aaba51899e660520b89080d);
+        
+    
+            var icon_af753725c96cfe6b58fc207e87acccf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fbe5e82756a44861d2a4b8a075da6baa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eb62183c93f33b9cd5a7bc55d00c659 = $(`<div id="html_4eb62183c93f33b9cd5a7bc55d00c659" style="width: 100.0%; height: 100.0%;"><b>Science World</b><br>Entry: €Science</div>`)[0];
+                popup_fbe5e82756a44861d2a4b8a075da6baa.setContent(html_4eb62183c93f33b9cd5a7bc55d00c659);
+            
+        
+
+        marker_cde608cf4b5f8a03ece7bde8cfdff77d.bindPopup(popup_fbe5e82756a44861d2a4b8a075da6baa)
+        ;
+
+        
+    
+    
+            marker_cde608cf4b5f8a03ece7bde8cfdff77d.bindTooltip(
+                `<div>
+                     Science World
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cde608cf4b5f8a03ece7bde8cfdff77d.setIcon(icon_af753725c96cfe6b58fc207e87acccf7);
+            
+    
+            var marker_7690af3e32a2a98034f45937f84b001d = L.marker(
+                [49.2835, -123.1187],
+                {
+}
+            ).addTo(map_416aa9dc5aaba51899e660520b89080d);
+        
+    
+            var icon_942d1deac0509a31614c12f3e70e017f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5cf2466baa917093f7a75adc5b990019 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0b444830d81750a1904a8322a87d8d2 = $(`<div id="html_c0b444830d81750a1904a8322a87d8d2" style="width: 100.0%; height: 100.0%;"><b>RESTAURANT:Top Of Vancouver</b><br>Food: French</div>`)[0];
+                popup_5cf2466baa917093f7a75adc5b990019.setContent(html_c0b444830d81750a1904a8322a87d8d2);
+            
+        
+
+        marker_7690af3e32a2a98034f45937f84b001d.bindPopup(popup_5cf2466baa917093f7a75adc5b990019)
+        ;
+
+        
+    
+    
+            marker_7690af3e32a2a98034f45937f84b001d.bindTooltip(
+                `<div>
+                     Top Of Vancouver
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7690af3e32a2a98034f45937f84b001d.setIcon(icon_942d1deac0509a31614c12f3e70e017f);
+            
+    
+            var marker_f0ebb1add8c0e733d688754a50aa550d = L.marker(
+                [49.2418, -123.1126],
+                {
+}
+            ).addTo(map_416aa9dc5aaba51899e660520b89080d);
+        
+    
+            var icon_deb93e11ec6cc6e95061d09b0701bf33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1a590b417f08760abf5778915bba18c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e9862305fab4e77ee43e015f24c6aaa = $(`<div id="html_6e9862305fab4e77ee43e015f24c6aaa" style="width: 100.0%; height: 100.0%;"><b>Park:Queen Elizabeth Park</b><br> Playground:Yes</div>`)[0];
+                popup_e1a590b417f08760abf5778915bba18c.setContent(html_6e9862305fab4e77ee43e015f24c6aaa);
+            
+        
+
+        marker_f0ebb1add8c0e733d688754a50aa550d.bindPopup(popup_e1a590b417f08760abf5778915bba18c)
+        ;
+
+        
+    
+    
+            marker_f0ebb1add8c0e733d688754a50aa550d.bindTooltip(
+                `<div>
+                     Queen Elizabeth Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f0ebb1add8c0e733d688754a50aa550d.setIcon(icon_deb93e11ec6cc6e95061d09b0701bf33);
+            
+    
+            var marker_b2579235893bb5daf4775d3d9e344dba = L.marker(
+                [49.2827, -123.1122],
+                {
+}
+            ).addTo(map_416aa9dc5aaba51899e660520b89080d);
+        
+    
+            var icon_abc3ea63937bbaf9ba4d9acec17603ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7900a089f8f853306e9dac4118fe2f91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afaa408c878f9a8454283efdf016409f = $(`<div id="html_afaa408c878f9a8454283efdf016409f" style="width: 100.0%; height: 100.0%;"><b>CAFE: Revolver Coffee</b><br>Food: Coffee<br>WiFi: Yes</div>`)[0];
+                popup_7900a089f8f853306e9dac4118fe2f91.setContent(html_afaa408c878f9a8454283efdf016409f);
+            
+        
+
+        marker_b2579235893bb5daf4775d3d9e344dba.bindPopup(popup_7900a089f8f853306e9dac4118fe2f91)
+        ;
+
+        
+    
+    
+            marker_b2579235893bb5daf4775d3d9e344dba.bindTooltip(
+                `<div>
+                     Revolver Coffee
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b2579235893bb5daf4775d3d9e344dba.setIcon(icon_abc3ea63937bbaf9ba4d9acec17603ab);
+            
+    
+            tile_layer_25d232bb69a45a8058030bc9bc915479.addTo(map_416aa9dc5aaba51899e660520b89080d);
+        
+    
+                marker_cde608cf4b5f8a03ece7bde8cfdff77d.setIcon(icon_af753725c96cfe6b58fc207e87acccf7);
+            
+    
+                marker_7690af3e32a2a98034f45937f84b001d.setIcon(icon_942d1deac0509a31614c12f3e70e017f);
+            
+    
+                marker_f0ebb1add8c0e733d688754a50aa550d.setIcon(icon_deb93e11ec6cc6e95061d09b0701bf33);
+            
+    
+                marker_b2579235893bb5daf4775d3d9e344dba.setIcon(icon_abc3ea63937bbaf9ba4d9acec17603ab);
+            
+    
+            var marker_38b539c2988ea1b8f7b32e065ed717ca = L.marker(
+                [49.2768208238208, -123.11198835993598],
+                {
+}
+            ).addTo(map_416aa9dc5aaba51899e660520b89080d);
+        
+    
+            var icon_6514b151396a96c7adeb2e819fe1dac5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d201c587c0667b004f79706b8ecbb240 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e09686c6eb1a6ba848fbe406dd8377e4 = $(`<div id="html_e09686c6eb1a6ba848fbe406dd8377e4" style="width: 100.0%; height: 100.0%;"><b>Rogers Arena</b><br>Entry: €10</div>`)[0];
+                popup_d201c587c0667b004f79706b8ecbb240.setContent(html_e09686c6eb1a6ba848fbe406dd8377e4);
+            
+        
+
+        marker_38b539c2988ea1b8f7b32e065ed717ca.bindPopup(popup_d201c587c0667b004f79706b8ecbb240)
+        ;
+
+        
+    
+    
+            marker_38b539c2988ea1b8f7b32e065ed717ca.bindTooltip(
+                `<div>
+                     Rogers Arena
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_38b539c2988ea1b8f7b32e065ed717ca.setIcon(icon_6514b151396a96c7adeb2e819fe1dac5);
+            
+</script>
+</html>
