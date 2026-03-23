@@ -36,10 +36,10 @@ The saved HTML file opens automatically and shows all your places as colored mar
 
 | Color | Place Type |
 |-------|-----------|
-|   Red | Restaurant |
-|   Green | Park |
-|   Purple | Museum |
-|   Orange | Cafe |
+|  $${\color{red}Red}$$| Restaurant |
+|  $${\color{green}Green}$$| Park |
+|  $${\color{purple}Purple}$$ | Museum |
+|  $${\color{orange}Orange}$$ | Cafe |
 
 
 <span style="color:blue">some *blue* text</span>.
